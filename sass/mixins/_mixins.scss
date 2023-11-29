@@ -1,0 +1,13 @@
+@mixin btn(){
+    padding: 14px 81px;
+    background: red;
+    font-size: 25px;
+    font-weight: 900;
+    color: #fff;
+    border-radius: 10px;
+    transition: all linear .4s;
+    &:hover{
+        background: black;
+        color: yellow;
+    }
+}

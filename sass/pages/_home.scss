@@ -1,0 +1,327 @@
+@use "../component/Navbar";
+@import "../variable/var";
+@import "../mixins/mixins";
+
+#banner {
+    background-color: #006A4E;
+    padding: 40px 0;
+
+    .heder {
+        border: 4px solid #fff;
+        padding: 20px 0 16px 0;
+        text-align: center;
+
+        h1 {
+            font-size: 37px;
+            font-weight: 700;
+            color: #fff;
+            text-align: center;
+        }
+    }
+
+    .heder_video {
+        text-align: center;
+        filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+        margin: 20px 0;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            @include btn;
+        }
+    }
+
+}
+
+#cards {
+    padding: 70px;
+
+    h1 {
+        color: #10791B;
+        font-size: 37px;
+        font-weight: 700;
+        text-align: center;
+
+        span {
+            color: red;
+        }
+    }
+
+    .card {
+        margin: 0 auto;
+        padding: 15px;
+        width: 100%;
+        height: 285px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        border: 4px solid #10791B;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        border-radius: 13px;
+        border: 4px solid #2EBC13;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
+        i {
+            color: #10A044;
+            font-size: 70px;
+        }
+
+        h2 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #10A044;
+            text-align: center;
+        }
+
+        p {
+            color: #0E0E0E;
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 25px;
+            text-align: center;
+        }
+    }
+}
+
+#orginal {
+    padding: 40px 0;
+
+    .header {
+        padding: 20px;
+        border: 4px solid #F21414;
+
+        h1 {
+            font-size: 37px;
+            font-weight: 700;
+            line-height: 60px;
+
+            span {
+                color: #F21414;
+            }
+
+            text-align: center;
+        }
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+
+        a {
+            @include btn;
+        }
+    }
+}
+
+#med {
+    padding: 40px 0;
+
+    .main_med {
+        border: 4px solid #2EBC13;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.34);
+        padding: 10px 0;
+
+        .med_heder {
+            h1 {
+                font-size: 47px;
+                font-weight: 700;
+                color: #0F8B1C;
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    .rules {
+        .header {
+            border: 2px solid #F21414;
+            padding: 30px;
+            margin: 0 auto;
+            margin-top: 30px;
+            width: 95%;
+
+            h1 {
+                font-size: 37px;
+                font-weight: 600;
+                color: black;
+                text-align: center;
+
+                span {
+                    color: #F21414;
+                }
+            }
+        }
+
+        .info {
+            p {
+                margin-top: 30px;
+                margin-left: 25px;
+                font-size: 28px;
+                font-weight: 600;
+                color: #000000;
+
+                span {
+                    display: inline-block;
+                    margin-top: 20px;
+                    color: #0F8B1C;
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+}
+
+#trust {
+    padding-bottom: 40px;
+
+    .trust_main {
+        padding: 50px 0 20px 0;
+        border: 5px solid #0E8014;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.34);
+
+        .header {
+            h1 {
+                font-size: 37px;
+                font-weight: 700;
+                color: #0E801C;
+                text-align: center;
+                margin-bottom: 50px;
+            }
+        }
+
+        .info {
+            p {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-size: 22px;
+                font-weight: 900;
+                margin-bottom: 10px;
+                margin-left: 15px;
+
+                span {
+                    font-size: 30px;
+                    color: #2EBC13;
+                }
+            }
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+
+            a {
+                @include btn
+            }
+        }
+    }
+}
+
+#menu-i {
+    .p_price {
+        padding: 30px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        background: #051E51;
+
+        h2 {
+            font-size: 29px;
+            font-weight: 700;
+            color: #fff;
+            text-align: center;
+        }
+    }
+
+    .n_price {
+        padding: 30px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        background-color: #0E8014;
+
+        h2 {
+            font-size: 29px;
+            font-weight: 700;
+            color: #fff;
+            text-align: center;
+        }
+    }
+
+    .c_price {
+        padding: 30px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        background-color: #2E0608;
+
+        h2 {
+            font-size: 29px;
+            font-weight: 700;
+            color: #fff;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width:720px) {
+    #banner {
+        .heder{
+            padding: 4vw 3vh;
+            h1 {
+                font-size: 21px;
+                font-weight: 700;
+                color: #fff;
+                text-align: center;
+            } 
+        }
+
+        .heder_video{
+            iframe{
+                width: 100%;
+                height: 30vh;
+                border-radius: 10px;
+            }
+        }
+        .btn a {
+            padding: 14px 22px;
+            font-size: 21px;
+        }
+    }
+}
+
+#cards {
+	padding: 0px;
+	padding-top: 20px;
+    h1{
+        font-size: 25px;
+    }
+}
+
+#orginal {
+    .btn{
+        a{
+            padding: 14px 22px;
+            font-size: 21px;
+        }
+    }
+}
+
+#trust {
+    .trust_main{
+        .btn{
+            a{
+                padding: 14px 22px;
+                font-size: 21px;
+            }
+        }
+    }
+}

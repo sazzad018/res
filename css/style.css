@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+#banner {
+  background-color: #006A4E;
+  padding: 40px 0;
+}
+#banner .heder {
+  border: 4px solid #fff;
+  padding: 20px 0 16px 0;
+  text-align: center;
+}
+#banner .heder h1 {
+  font-size: 37px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+#banner .heder_video {
+  text-align: center;
+  filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+  margin: 20px 0;
+}
+#banner .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#banner .btn a {
+  padding: 14px 81px;
+  background: red;
+  font-size: 25px;
+  font-weight: 900;
+  color: #fff;
+  border-radius: 10px;
+  transition: all linear 0.4s;
+}
+#banner .btn a:hover {
+  background: black;
+  color: yellow;
+}
+
+#cards {
+  padding: 70px;
+}
+#cards h1 {
+  color: #10791B;
+  font-size: 37px;
+  font-weight: 700;
+  text-align: center;
+}
+#cards h1 span {
+  color: red;
+}
+#cards .card {
+  margin: 0 auto;
+  padding: 15px;
+  width: 100%;
+  height: 285px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 4px solid #10791B;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 13px;
+  border: 4px solid #2EBC13;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+#cards .card i {
+  color: #10A044;
+  font-size: 70px;
+}
+#cards .card h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #10A044;
+  text-align: center;
+}
+#cards .card p {
+  color: #0E0E0E;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: center;
+}
+
+#orginal {
+  padding: 40px 0;
+}
+#orginal .header {
+  padding: 20px;
+  border: 4px solid #F21414;
+}
+#orginal .header h1 {
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+}
+#orginal .header h1 span {
+  color: #F21414;
+}
+#orginal .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#orginal .btn a {
+  padding: 14px 81px;
+  background: red;
+  font-size: 25px;
+  font-weight: 900;
+  color: #fff;
+  border-radius: 10px;
+  transition: all linear 0.4s;
+}
+#orginal .btn a:hover {
+  background: black;
+  color: yellow;
+}
+
+#med {
+  padding: 40px 0;
+}
+#med .main_med {
+  border: 4px solid #2EBC13;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.34);
+  padding: 10px 0;
+}
+#med .main_med .med_heder h1 {
+  font-size: 47px;
+  font-weight: 700;
+  color: #0F8B1C;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#med .rules .header {
+  border: 2px solid #F21414;
+  padding: 30px;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 95%;
+}
+#med .rules .header h1 {
+  font-size: 37px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
+#med .rules .header h1 span {
+  color: #F21414;
+}
+#med .rules .info p {
+  margin-top: 30px;
+  margin-left: 25px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #000000;
+}
+#med .rules .info p span {
+  display: inline-block;
+  margin-top: 20px;
+  color: #0F8B1C;
+  font-size: 19px;
+}
+
+#trust {
+  padding-bottom: 40px;
+}
+#trust .trust_main {
+  padding: 50px 0 20px 0;
+  border: 5px solid #0E8014;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.34);
+}
+#trust .trust_main .header h1 {
+  font-size: 37px;
+  font-weight: 700;
+  color: #0E801C;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#trust .trust_main .info p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+#trust .trust_main .info p span {
+  font-size: 30px;
+  color: #2EBC13;
+}
+#trust .trust_main .btn {
+  display: flex;
+  justify-content: center;
+}
+#trust .trust_main .btn a {
+  padding: 14px 81px;
+  background: red;
+  font-size: 25px;
+  font-weight: 900;
+  color: #fff;
+  border-radius: 10px;
+  transition: all linear 0.4s;
+}
+#trust .trust_main .btn a:hover {
+  background: black;
+  color: yellow;
+}
+
+#menu-i .p_price {
+  padding: 30px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: #051E51;
+}
+#menu-i .p_price h2 {
+  font-size: 29px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+#menu-i .n_price {
+  padding: 30px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #0E8014;
+}
+#menu-i .n_price h2 {
+  font-size: 29px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+#menu-i .c_price {
+  padding: 30px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #2E0608;
+}
+#menu-i .c_price h2 {
+  font-size: 29px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  #banner .heder {
+    padding: 4vw 3vh;
+  }
+  #banner .heder h1 {
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+  }
+  #banner .heder_video iframe {
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px;
+  }
+  #banner .btn a {
+    padding: 14px 22px;
+    font-size: 21px;
+  }
+}
+#cards {
+  padding: 0px;
+  padding-top: 20px;
+}
+#cards h1 {
+  font-size: 25px;
+}
+
+#orginal .btn a {
+  padding: 14px 22px;
+  font-size: 21px;
+}
+
+#trust .trust_main .btn a {
+  padding: 14px 22px;
+  font-size: 21px;
+}/*# sourceMappingURL=style.css.map */
