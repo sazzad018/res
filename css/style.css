@@ -300,6 +300,24 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
   font-size: 25px;
 }
 
+.disclamera .dis {
+  background-color: #FFF600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.disclamera .dis i {
+  font-size: 25px;
+  color: red;
+}
+.disclamera .dis h2 {
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+}
+
 #orginal .btn a {
   padding: 14px 22px;
   font-size: 21px;
