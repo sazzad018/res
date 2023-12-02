@@ -304,22 +304,28 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
   margin-top: 20px;
 }
 .disclamera .dis {
-  background-color: #FFF600;
-  display: flex;
-  align-items: center;
-  gap: 10px;
+  background-color: rgb(244, 217, 11);
   padding: 10px 10px;
   border-radius: 10px;
+  border: 1px solid #DA161E;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .disclamera .dis i {
-  font-size: 25px;
+  font-size: 35px;
   color: red;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 .disclamera .dis h2 {
   color: #DA161E;
   font-size: 18px;
   font-weight: 700;
-  line-height: 25px;
+  line-height: 30px;
+}
+.disclamera .dis h2 span {
+  color: rgb(215, 97, 101);
+  border-bottom: 2px solid #DA161E;
 }
 
 #orginal .btn a {
