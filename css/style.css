@@ -287,6 +287,13 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
     height: 30vh;
     border-radius: 10px;
   }
+  #banner .main_btn {
+    display: flex;
+    align-items: center;
+  }
+  #banner .gif {
+    width: 50px;
+  }
   #banner .btn a {
     padding: 14px 22px;
     font-size: 21px;
