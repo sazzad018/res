@@ -20,6 +20,14 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
   padding: 0;
 }
 
+.gif {
+  width: 50px;
+}
+
+.gif {
+  width: 50px;
+}
+
 #banner {
   background-color: #006A4E;
   padding: 40px 0;
@@ -287,16 +295,16 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
     height: 30vh;
     border-radius: 10px;
   }
-  #banner .main_btn {
+  #banner .btn {
     display: flex;
-    align-items: center;
-  }
-  #banner .gif {
-    width: 50px;
+    justify-content: center;
   }
   #banner .btn a {
     padding: 14px 22px;
     font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 #cards {
@@ -338,9 +346,15 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 #orginal .btn a {
   padding: 14px 22px;
   font-size: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #trust .trust_main .btn a {
   padding: 14px 22px;
   font-size: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */

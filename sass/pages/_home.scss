@@ -291,16 +291,16 @@
                 border-radius: 10px;
             }
         }
-        .main_btn{
+        .btn{
             display: flex;
-            align-items: center;
-        }
-        .gif{
-            width: 50px;
+            justify-content: center;
         }
         .btn a {
             padding: 14px 22px;
             font-size: 21px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     }
 }
@@ -349,6 +349,9 @@
         a{
             padding: 14px 22px;
             font-size: 21px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     }
 }
@@ -357,8 +360,11 @@
     .trust_main{
         .btn{
             a{
-                padding: 14px 22px;
-                font-size: 21px;
+            padding: 14px 22px;
+            font-size: 21px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             }
         }
     }
