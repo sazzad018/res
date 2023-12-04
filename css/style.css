@@ -29,18 +29,18 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 }
 
 #banner {
-  background-color: #006A4E;
+  background-color: #232D3F;
   padding: 40px 0;
 }
 #banner .heder {
-  border: 4px solid #fff;
+  border: 4px solid #008170;
   padding: 20px 0 16px 0;
   text-align: center;
 }
 #banner .heder h1 {
   font-size: 37px;
   font-weight: 700;
-  color: #fff;
+  color: #008170;
   text-align: center;
 }
 #banner .heder_video {
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
   padding: 70px;
 }
 #cards h1 {
-  color: #10791B;
+  color: #008170;
   font-size: 37px;
   font-weight: 700;
   text-align: center;
@@ -124,6 +124,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
   font-size: 37px;
   font-weight: 700;
   line-height: 60px;
+  color: #008170;
   text-align: center;
 }
 #orginal .header h1 span {
@@ -159,9 +160,9 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
   padding: 10px 0;
 }
 #med .main_med .med_heder h1 {
-  font-size: 47px;
+  font-size: 45px;
   font-weight: 700;
-  color: #0F8B1C;
+  color: #008170;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -176,7 +177,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 #med .rules .header h1 {
   font-size: 37px;
   font-weight: 600;
-  color: black;
+  color: #008170;
   text-align: center;
 }
 #med .rules .header h1 span {
@@ -187,7 +188,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
   margin-left: 25px;
   font-size: 28px;
   font-weight: 600;
-  color: #000000;
+  color: #008170;
 }
 #med .rules .info p span {
   display: inline-block;
@@ -208,7 +209,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 #trust .trust_main .header h1 {
   font-size: 37px;
   font-weight: 700;
-  color: #0E801C;
+  color: red;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -220,6 +221,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
   font-weight: 900;
   margin-bottom: 10px;
   margin-left: 15px;
+  color: #008170;
 }
 #trust .trust_main .info p span {
   font-size: 30px;
@@ -247,7 +249,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
   padding: 30px;
   margin-bottom: 10px;
   border-radius: 5px;
-  background: #051E51;
+  background: #0F0F0F;
+  box-shadow: 0 0 20px #005B41;
 }
 #menu-i .p_price h2 {
   font-size: 29px;
@@ -280,14 +283,13 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
   text-align: center;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 600px) {
   #banner .heder {
     padding: 4vw 3vh;
   }
   #banner .heder h1 {
     font-size: 21px;
     font-weight: 700;
-    color: #fff;
     text-align: center;
   }
   #banner .heder_video iframe {
@@ -306,55 +308,58 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
     align-items: center;
     justify-content: center;
   }
+  #cards {
+    padding: 0px;
+    padding-top: 20px;
+  }
+  #cards h1 {
+    font-size: 25px;
+  }
+  .disclamera {
+    margin-top: 20px;
+  }
+  .disclamera .dis {
+    background-color: rgb(244, 217, 11);
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid #DA161E;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .disclamera .dis i {
+    font-size: 35px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .disclamera .dis h2 {
+    color: #DA161E;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  .disclamera .dis h2 span {
+    color: rgb(215, 97, 101);
+    border-bottom: 2px solid #DA161E;
+  }
+  #orginal .btn a {
+    padding: 14px 22px;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #trust .trust_main .btn a {
+    padding: 14px 22px;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
-#cards {
-  padding: 0px;
-  padding-top: 20px;
-}
-#cards h1 {
-  font-size: 25px;
-}
-
-.disclamera {
-  margin-top: 20px;
-}
-.disclamera .dis {
-  background-color: rgb(244, 217, 11);
-  padding: 10px 10px;
-  border-radius: 10px;
-  border: 1px solid #DA161E;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.disclamera .dis i {
-  font-size: 35px;
-  color: red;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
-}
-.disclamera .dis h2 {
-  color: #DA161E;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 30px;
-}
-.disclamera .dis h2 span {
-  color: rgb(215, 97, 101);
-  border-bottom: 2px solid #DA161E;
-}
-
-#orginal .btn a {
-  padding: 14px 22px;
-  font-size: 21px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#trust .trust_main .btn a {
-  padding: 14px 22px;
-  font-size: 21px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+body {
+  background-color: #232D3F;
 }/*# sourceMappingURL=style.css.map */

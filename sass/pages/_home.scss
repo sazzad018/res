@@ -3,18 +3,18 @@
 @import "../mixins/mixins";
 
 #banner {
-    background-color: #006A4E;
+    background-color: #232D3F;
     padding: 40px 0;
 
     .heder {
-        border: 4px solid #fff;
+        border: 4px solid $Paragraph;
         padding: 20px 0 16px 0;
         text-align: center;
 
         h1 {
             font-size: 37px;
             font-weight: 700;
-            color: #fff;
+            color: $Paragraph;
             text-align: center;
         }
     }
@@ -41,7 +41,7 @@
     padding: 70px;
 
     h1 {
-        color: #10791B;
+        color: $Paragraph;
         font-size: 37px;
         font-weight: 700;
         text-align: center;
@@ -100,6 +100,7 @@
             font-size: 37px;
             font-weight: 700;
             line-height: 60px;
+            color: #008170;
 
             span {
                 color: #F21414;
@@ -132,9 +133,9 @@
 
         .med_heder {
             h1 {
-                font-size: 47px;
+                font-size: 45px;
                 font-weight: 700;
-                color: #0F8B1C;
+                color: $Paragraph;
                 text-align: center;
                 margin-top: 20px;
                 margin-bottom: 30px;
@@ -153,7 +154,7 @@
             h1 {
                 font-size: 37px;
                 font-weight: 600;
-                color: black;
+                color: $Paragraph;
                 text-align: center;
 
                 span {
@@ -168,7 +169,7 @@
                 margin-left: 25px;
                 font-size: 28px;
                 font-weight: 600;
-                color: #000000;
+                color: $Paragraph;
 
                 span {
                     display: inline-block;
@@ -194,7 +195,7 @@
             h1 {
                 font-size: 37px;
                 font-weight: 700;
-                color: #0E801C;
+                color: red;
                 text-align: center;
                 margin-bottom: 50px;
             }
@@ -209,6 +210,7 @@
                 font-weight: 900;
                 margin-bottom: 10px;
                 margin-left: 15px;
+                color: $Paragraph;
 
                 span {
                     font-size: 30px;
@@ -233,7 +235,8 @@
         padding: 30px;
         margin-bottom: 10px;
         border-radius: 5px;
-        background: #051E51;
+        background: $blackbasic;
+        box-shadow: 0 0 20px $seconderycorlor;
 
         h2 {
             font-size: 29px;
@@ -272,99 +275,98 @@
     }
 }
 
-@media (max-width:720px) {
+@media (max-width:600px) {
     #banner {
-        .heder{
+        .heder {
             padding: 4vw 3vh;
             h1 {
                 font-size: 21px;
                 font-weight: 700;
-                color: #fff;
                 text-align: center;
-            } 
+            }
         }
-
-        .heder_video{
-            iframe{
+        .heder_video {
+            iframe {
                 width: 100%;
                 height: 30vh;
                 border-radius: 10px;
             }
         }
-        .btn{
+
+        .btn {
             display: flex;
             justify-content: center;
-        }
-        .btn a {
-            padding: 14px 22px;
-            font-size: 21px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            a {
+                padding: 14px 22px;
+                font-size: 21px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }   
+    }
+    #cards {
+        padding: 0px;
+        padding-top: 20px;
+        h1 {
+            font-size: 25px;
         }
     }
-}
+    .disclamera {
+        margin-top: 20px;
 
-#cards {
-	padding: 0px;
-	padding-top: 20px;
-    h1{
-        font-size: 25px;
-    }
-}
-
-.disclamera{
-    margin-top: 20px;
-    .dis{
-        background-color: rgb(244, 217, 11);
-        // display: flex;
-        // align-items: start;
-        // gap: 10px;
-        padding: 10px 10px;
-        border-radius: 10px;
-        border: 1px solid #DA161E;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        i{
-            font-size: 35px;
-            color: red;
+        .dis {
+            background-color: rgb(244, 217, 11);
             display: flex;
-            justify-content: center;
-            margin-bottom: 10px;
-        }
-        h2{
-            color: #DA161E;
-            font-size: 18px;
-            font-weight: 700;
-            line-height: 30px;
-            span{
-                color: rgb(215, 97, 101);
-                border-bottom: 2px solid #DA161E;
+            align-items: start;
+            gap: 10px;
+            padding: 10px 10px;
+            border-radius: 10px;
+            border: 1px solid #DA161E;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+            i {
+                font-size: 35px;
+                color: red;
+                display: flex;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+
+            h2 {
+                color: #DA161E;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 30px;
+
+                span {
+                    color: rgb(215, 97, 101);
+                    border-bottom: 2px solid #DA161E;
+                }
             }
         }
     }
-}
-
-#orginal {
-    .btn{
-        a{
-            padding: 14px 22px;
-            font-size: 21px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+    #orginal {
+        .btn {
+            a {
+                padding: 14px 22px;
+                font-size: 21px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
         }
     }
-}
-
-#trust {
-    .trust_main{
-        .btn{
-            a{
-            padding: 14px 22px;
-            font-size: 21px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+    #trust {
+        .trust_main {
+            .btn {
+                a {
+                    padding: 14px 22px;
+                    font-size: 21px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
             }
         }
     }
